@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "Adnane Boukhayma"
 
 author:
   facebook:         your-id
@@ -55,13 +55,13 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
+  - name:           "Research"
+    url:            "#research" #"/about"
+  - name:           "Data"
+    url:            "#data"
+  - name:           "Teaching"
     url:            "/tags"
-  - name:           "Github"
+  - name:           "Contact"
     url:            "https://github.com/AWEEKJ/Kiko-plus"
 
 # Sass
