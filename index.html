@@ -16,41 +16,102 @@ layout: default
   </nav>
 </header>
 
+I am a PhD student in Computer Vision at INRIA Rhône-Alpes research institute, and teacher assistant at Université Grenoble Alpes.  
 
-<div class="list" id="reasearch">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
-      <div class="list-post-title">
-        {{ post.title }}
-      </div>
-      {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
-      {% endif %}
-    </a>
+<h2 id="research"> Research </h2>
+<div class="list"> 
 
+<h4 style="margin:0"> Surface Motion Capture Transfer with Gaussian Process Regression</h4>
+A. Boukhayma, J. Franco, E. Boyer. CVPR 2017
+<div class="post-tag">
+    <ul style="margin-bottom:0">    
+      <li>
+        <a href="http://localhost:4000/tags#test">
+          <span>Paper</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Video</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Poster</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Bib</span>
+        </a>
+      </li>
+    </ul>
+</div> 
+<BR CLEAR=LEFT> 
 
-  </div>
-{% endfor %}
+<h4 style="margin: 0"> Eigen Appearance Maps of Dynamic Shapes</h4>
+A. Boukhayma, V. Tsiminaki, J. Franco, E. Boyer. ECCV 2016
+<div class="post-tag">
+    <ul>    
+      <li>
+        <a href="http://localhost:4000/tags#test">
+          <span>Paper</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Video</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Poster</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Bib</span>
+        </a>
+      </li>
+    </ul>
+</div>   
+<BR CLEAR=LEFT>
+
+<h4 style="margin: 0"> Video based Animation Synthesis with the Essential Graph</h4>
+A. Boukhayma, E. Boyer. 3DV 2015
+<div class="post-tag">
+    <ul>    
+      <li>
+        <a href="http://localhost:4000/tags#test">
+          <span>Paper</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Video</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Poster</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/tags#style">
+          <span>Bib</span>
+        </a>
+      </li>
+    </ul>
+</div>   
+<BR CLEAR=LEFT>        
+
+</div>
 
   
 <h2 id="data"> Data </h2>
 
 <ul>
-  
+
 </ul>
 
 <h2 id="teaching"> Teaching </h2>
@@ -65,6 +126,4 @@ layout: default
   
 </ul>
 
-
-{% endif %}
 </div>
