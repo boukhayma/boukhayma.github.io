@@ -44,6 +44,12 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 timezone:           Asia/Seoul
 permalink:          /:year-:month-:day/:title/
 
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-admin
+
 # Pagination
 paginate:           5
 paginate_path:      /page:num/
