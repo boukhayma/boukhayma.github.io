@@ -22,17 +22,17 @@ author:
 #  tumblr:           your-id
   email:           adnane.boukhayma@gmail.com
 
-copyright:
+#copyright:
 #  year:             2017
-  name:             Kiko
+#  name:             Kiko
 
 # Google-analytics
-google-analytics:
-  id:               ""
+#google-analytics:
+#  id:               ""
 
 # Disqus
-disqus:
-  id:               "kiko-plus"
+#disqus:
+#  id:               "kiko-plus"
 
 # URL
 url:                "https://boukhayma.github.io" # the base hostname & protocol for your site
@@ -41,8 +41,8 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+#timezone:           Asia/Seoul
+#permalink:          /:year-:month-:day/:title/
 
 
 plugins:
@@ -62,13 +62,13 @@ kramdown:
 # Navigation
 nav:
   - name:           "Research"
-    url:            "#research" 
+    url:            "#Research" 
   - name:           "Data"
-    url:            "#data"
+    url:            "#Data"
   - name:           "Teaching"
-    url:            "#teaching"
+    url:            "#Teaching"
   - name:           "Contact"
-    url:            "#contact"
+    url:            "#Contact"
 
 # Sass
 sass:
